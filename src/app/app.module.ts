@@ -16,6 +16,11 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatCardModule } from '@angular/material/card';
 import { FlexLayoutModule } from "@angular/flex-layout";
 
+import { MatTableModule } from '@angular/material/table';
+
+//Importación del módulo 
+import { HttpClientModule } from  '@angular/common/http';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +38,9 @@ import { FlexLayoutModule } from "@angular/flex-layout";
     MatToolbarModule,
     MatCardModule,
     FlexLayoutModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTableModule,
+    HttpClientModule  //Registro de módulo importado
   ],
   providers: [],
   bootstrap: [AppComponent]
