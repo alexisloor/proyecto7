@@ -15,7 +15,7 @@ import { DataService } from '../../providers/data.service';
 export class MainComponent {
 
   /* LISTA CON LOS ATRIBUTOS DE LA INTERFAZ */
-  displayedColumns: string[] = ['nombreUsuario', 'correoUsuario', 'claveUsuario'];
+  displayedColumns: string[] = ['idUsuario','nombreUsuario', 'correoUsuario', 'claveUsuario'];
 
 
   //Atributo con el tipo de dato de la interfaz
