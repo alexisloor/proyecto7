@@ -8,7 +8,7 @@ import { HttpClient } from '@angular/common/http';
 export class DataService {
 
   //Atributo URL
-  private URL: string = 'http://localhost:3000/rest/usersClass/findAll/json';
+  private URL: string = 'https://express7-production.up.railway.app/rest/usersClass/findAll/json';
 
 
   //Inyección de dependencia del HttpClient
